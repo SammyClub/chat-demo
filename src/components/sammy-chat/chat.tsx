@@ -8,7 +8,8 @@ export default function Chat() {
   const [token, setToken] = useState<string | undefined>(undefined);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const baseUrl = process.env.SAMMY_BASE_URL || "http://localhost:8000";
+  const baseUrl =
+    process.env.NEXT_PUBLIC_SAMMY_BASE_URL || "http://localhost:8000";
 
   // Function to fetch a new token
   const fetchToken = useCallback(async () => {
@@ -58,11 +59,11 @@ export default function Chat() {
   };
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="hidden">Loading...</div>;
   }
 
   if (error) {
-    return <div>{error}</div>;
+    return <div className="hidden">{error}</div>;
   }
 
   return <Sammy {...SammyProviderProps} />;
