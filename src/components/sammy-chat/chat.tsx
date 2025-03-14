@@ -57,5 +57,13 @@ export default function Chat() {
     onTokenExpired: handleTokenExpired,
   };
 
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>{error}</div>;
+  }
+
   return <Sammy {...SammyProviderProps} />;
 }
