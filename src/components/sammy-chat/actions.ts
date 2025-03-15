@@ -24,7 +24,7 @@ export async function generateToken(
     const apiKey = process.env.SAMMY_API_KEY;
 
     if (!apiKey) {
-      console.error("SAMMY_API_KEY is not defined in environment variables");
+      console.error("API_KEY is not defined in environment variables");
       return null;
     }
 

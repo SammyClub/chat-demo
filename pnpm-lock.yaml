@@ -15,8 +15,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@types/react@19.0.10)(react@19.0.0)
       '@sammy-labs/success':
-        specifier: ^0.1.4
-        version: 0.1.4(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^0.1.5
+        version: 0.1.5(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -811,8 +811,8 @@ packages:
   '@rushstack/eslint-patch@1.11.0':
     resolution: {integrity: sha512-zxnHvoMQVqewTJr/W4pKjF0bMGiKJv1WX7bSrkl46Hg0QjESbzBROWK0Wg4RphzSOS5Jiy7eFimmM3UgMrMZbQ==}
 
-  '@sammy-labs/success@0.1.4':
-    resolution: {integrity: sha512-JC8jzV8NeqYtuqda8GYtuZsst32rTwUhFNJ/n0oVRzFytppdYv8WwEAbts8Hva02usLTk5abse4cBISVMwKVVg==}
+  '@sammy-labs/success@0.1.5':
+    resolution: {integrity: sha512-vnxRwqL5R3H5r5MxZJN0LuaXWpyg5quiLDCJM0bCYzPI+HHNZ2DL70fcqzBKh0BdNJJwTFvkKtB+GWPnj/HkNQ==}
     engines: {node: '>=14'}
     peerDependencies:
       react: ^18.0.0
@@ -2783,7 +2783,7 @@ snapshots:
 
   '@rushstack/eslint-patch@1.11.0': {}
 
-  '@sammy-labs/success@0.1.4(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@sammy-labs/success@0.1.5(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@radix-ui/react-avatar': 1.1.3(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-scroll-area': 1.2.3(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
