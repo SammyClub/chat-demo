@@ -115,6 +115,14 @@ export default function Chat() {
     },
   };
 
+  if (loading) {
+    return <div className="hidden">Loading...</div>;
+  }
+
+  if (error) {
+    return <div className="hidden">{error}</div>;
+  }
+
   return (
     <div>
       {/* Theme controls */}
